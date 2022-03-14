@@ -46,7 +46,7 @@ Tip:
 El atributo "comic_id" es un campo de tipo FK, para poder implementarlo utilizaremos:
 
 ```
-    comic_id = models.ForeignKey(Comic,
+    comic = models.ForeignKey(Comic,
                                  verbose_name='Comic',
                                  on_delete=models.DO_NOTHING,
                                  default=1, blank=True
